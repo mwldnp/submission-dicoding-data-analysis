@@ -5,7 +5,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-hour_df = pd.read_csv('data.csv')
+hour_df = pd.read_csv('dashboard/data.csv')
 
 st.title('Bike Sharing Dashboard :sparkles:')
 
