@@ -31,7 +31,7 @@ if selected_page == "Weather Analysis":
     ax=ax
 )
 
-    ax.set_title('Number of Bike Renters Based on Season')
+    ax.set_title('Number of Bike Renters Based on Weather')
     ax.set_xticklabels(['Clear', 'Mist', 'Light Snow/Rain', 'Heavy Rain/Snow'], rotation=0)
     ax.set_ylabel(None)
     ax.set_xlabel('Weather')
